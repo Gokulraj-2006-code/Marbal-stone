@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head><script>document.documentElement.classList.add("js")</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Handmade Bathtub — EX-B01 Buyer Demo</title>
+<meta name="description" content="A small buyer-to-quote demo for Handmade Bathtub's fictional EX-B01 natural-stone basin.">
+<style>
+:root{--ink:#27231f;--muted:#716a61;--stone:#e8e0d4;--stone2:#f5f0e9;--paper:#fbfaf7;--dark:#24211e;--line:#ddd4c8;--accent:#a77f59;--ok:#456957;--warn:#8a5d2f;--danger:#7a443f;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+a{color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}.nav{position:sticky;top:0;z-index:30;background:rgba(251,250,247,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.navin{height:72px;display:flex;align-items:center;gap:22px}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;margin-right:auto}.mark{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f4eee5,#b9a28b 55%,#756453);display:inline-block}.brand b{font-family:Georgia,serif;font-size:18px}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:.12em;text-transform:uppercase}.navlinks{display:flex;gap:18px;font-size:13px}.navlinks a{text-decoration:none}.btn{border:0;border-radius:999px;padding:12px 18px;font-weight:700;cursor:pointer;font-size:13px}.btn.dark{background:var(--dark);color:#fff}.btn.soft{background:var(--stone);color:var(--ink)}.menu{display:none;border:0;background:none;font-size:24px}
+.hero{padding:76px 0 58px;background:linear-gradient(135deg,#f8f4ed,#e7ded1)}.heroGrid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#806d5b;font-weight:700}.hero h1,.section h2,.product h2{font-family:Georgia,serif;font-weight:500;line-height:1.05}.hero h1{font-size:58px;margin:16px 0}.hero p{font-size:17px;color:var(--muted);max-width:640px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0}.facts{display:flex;gap:22px;flex-wrap:wrap;font-size:12px;color:#655d54}.heroVisual{min-height:430px;border-radius:26px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#eee5d8 0 28%,transparent 29%),linear-gradient(145deg,#c8b6a0,#efe9e0 50%,#a99680);box-shadow:0 24px 60px #6e5a4428}.heroVisual:before{content:"EX—B01";position:absolute;right:24px;top:22px;background:#ffffffb8;padding:8px 11px;border-radius:999px;font-size:10px;letter-spacing:.15em}.basin{position:absolute;width:66%;height:43%;left:17%;top:29%;border-radius:50% 50% 43% 43%/30% 30% 55% 55%;background:linear-gradient(145deg,#d7c7b5,#b8a38c);box-shadow:inset 0 15px 28px #ffffff55,0 35px 45px #3d30252e;transform:rotate(-4deg)}.basin:after{content:"";position:absolute;width:58%;height:38%;left:21%;top:20%;border-radius:50%;background:radial-gradient(ellipse at 50% 35%,#8c7763,#665747);box-shadow:inset 0 10px 15px #2d241c66}
+.section{padding:74px 0}.section.alt{background:var(--stone2)}.sectionHead{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:28px}.section h2{font-size:39px;margin:7px 0}.sectionHead p{max-width:560px;color:var(--muted);margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 25px #46392a0a}.card h3{margin:8px 0 9px;font-family:Georgia,serif;font-size:22px}.card p,.card li{font-size:13px;color:var(--muted)}.priority{display:inline-flex;padding:6px 9px;border-radius:999px;background:var(--stone);font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.tag{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#806d5b;font-weight:800}.card ul{padding-left:18px;margin-bottom:0}.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.product{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:stretch}.productImage{min-height:390px;border-radius:22px;background:linear-gradient(145deg,#b9a58f,#e6dbcd 45%,#9b8770);position:relative;overflow:hidden}.productImage .basin{top:30%;left:15%;width:70%;height:42%}.productInfo{background:#fff;border:1px solid var(--line);border-radius:22px;padding:34px}.specs{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:22px 0}.specs div{padding:13px 0}.specs div:nth-child(odd){border-right:1px solid var(--line);padding-right:12px}.specs div:nth-child(even){padding-left:12px}.specs b{display:block;font-size:11px}.specs span{font-size:13px;color:var(--muted)}.notice{padding:13px 15px;background:#f4eee6;border-left:3px solid var(--accent);font-size:12px;color:#665d54;border-radius:8px}.journey{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.step{padding:18px;border:1px solid var(--line);border-radius:14px;background:#fff}.step strong{display:block;font-family:Georgia,serif;font-size:19px;margin-bottom:6px}.step span{font-size:12px;color:var(--muted)}.social{display:grid;grid-template-columns:1fr .8fr;gap:22px}.post{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px}.visualCard{border-radius:20px;min-height:330px;background:linear-gradient(150deg,#dacbbb,#8c7964);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;color:#fff}.visualCard:before{content:"STONE / WATER / LIGHT";position:absolute;top:22px;left:22px;font-size:10px;letter-spacing:.18em}.visualCard .basin{width:62%;height:36%;top:34%;left:19%}.visualCopy{position:absolute;bottom:22px;left:22px}.visualCopy b{font-family:Georgia,serif;font-size:26px}.visualCopy small{display:block}.message{border-left:3px solid var(--accent);padding-left:16px;margin:14px 0}.message p{margin:5px 0;font-size:13px}.tableWrap{overflow:auto;border:1px solid var(--line);border-radius:16px;background:#fff}table{width:100%;border-collapse:collapse;min-width:900px}th,td{text-align:left;padding:14px;border-bottom:1px solid #eee6dc;font-size:12px;vertical-align:top}th{background:#f4eee6;font-size:10px;letter-spacing:.1em;text-transform:uppercase}tr:last-child td{border-bottom:0}.status{display:inline-block;padding:5px 8px;border-radius:999px;font-size:10px;font-weight:800}.ok{background:#e6efe9;color:var(--ok)}.warn{background:#f5eadb;color:var(--warn)}.danger{background:#f3e4e2;color:var(--danger)}.metric{display:grid;grid-template-columns:.7fr 1.3fr;gap:22px}.metricBig{font-family:Georgia,serif;font-size:52px}.formBox{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px}.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field label{display:block;font-size:11px;font-weight:800;margin-bottom:5px}.field input,.field select,.field textarea{width:100%;border:1px solid #d8cec1;border-radius:9px;padding:11px;font:inherit;background:#fff}.field textarea{min-height:90px;resize:vertical}.full{grid-column:1/-1}.formActions{margin-top:15px;display:flex;gap:10px;align-items:center}.toast{position:fixed;right:20px;bottom:20px;background:var(--dark);color:#fff;padding:13px 17px;border-radius:10px;display:none;z-index:100;font-size:12px}.toast.show{display:block}.footer{background:var(--dark);color:#ddd;padding:45px 0}.footerGrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px}.footer small{color:#aaa;font-size:11px}.sources{font-size:12px;color:var(--muted)}.sources a{display:block;margin:6px 0;color:#5f584f}.modal{display:none;position:fixed;inset:0;background:#1e1915aa;z-index:80;padding:24px;align-items:center;justify-content:center}.modal.open{display:flex}.modalBox{max-width:700px;width:100%;max-height:90vh;overflow:auto;background:var(--paper);border-radius:22px;padding:28px;position:relative}.close{position:absolute;right:18px;top:15px;border:0;background:none;font-size:27px;cursor:pointer}
+@media(max-width:850px){.navlinks,.nav .navcta{display:none}.menu{display:block}.heroGrid,.product,.social,.metric,.two{grid-template-columns:1fr}.hero h1{font-size:43px}.heroVisual{min-height:330px}.grid3{grid-template-columns:1fr}.journey{grid-template-columns:1fr 1fr}.footerGrid{grid-template-columns:1fr}.section{padding:55px 0}.sectionHead{display:block}.sectionHead p{margin-top:12px}.formGrid{grid-template-columns:1fr}.full{grid-column:auto}.specs{grid-template-columns:1fr}.specs div:nth-child(odd){border-right:0}.specs div:nth-child(even){padding-left:0}.navlinks.mobile{display:flex;position:absolute;top:72px;left:0;right:0;background:var(--paper);padding:18px 24px;flex-direction:column;border-bottom:1px solid var(--line)}}
+
+/* ---- motion + additions ---- */
+.js [data-r]{opacity:0;transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.js [data-r=up]{transform:translateY(46px)}.js [data-r=left]{transform:translateX(-60px)}.js [data-r=right]{transform:translateX(60px)}.js [data-r=zoom]{transform:scale(.9)}
+.js [data-r].in{opacity:1;transform:none}
+.js li.li{opacity:0;transform:translateX(-26px);transition:opacity .55s ease,transform .55s ease}.js li.li.in{opacity:1;transform:none}
+.caret:after{content:"|";margin-left:2px;color:var(--accent);animation:blink .8s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.card,.step,.post,.scene,.tabPanel{transition:transform .35s ease,box-shadow .35s ease}
+.card:hover,.step:hover,.scene:hover{transform:translateY(-8px)!important;box-shadow:0 22px 40px #46392a24}
+.btn{transition:transform .2s ease,box-shadow .2s ease,background .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px #0003}.btn:active{transform:scale(.96)}
+.basin{animation:floaty 6s ease-in-out infinite}@keyframes floaty{50%{transform:translateY(-14px) rotate(-2deg)}}
+.chip{position:absolute;background:#ffffffd9;border-radius:999px;padding:8px 13px;font-size:11px;font-weight:700;box-shadow:0 10px 24px #3d302530;animation:floaty 5s ease-in-out infinite}
+.chip.c1{left:6%;bottom:12%}.chip.c2{right:7%;bottom:26%;animation-delay:-2s}
+.drop{position:absolute;width:10px;height:14px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:#ffffffaa;left:50%;top:8%;animation:drip 3.4s ease-in infinite}@keyframes drip{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(190px);opacity:0}}
+.progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:99}
+.scenes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.scene{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#fff}.scene svg{display:block;width:100%;height:auto}.scene figcaption{padding:12px 16px;font-size:12px;color:var(--muted)}
+.counts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}.count{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}.count b{display:block;font-family:Georgia,serif;font-size:34px}.count span{font-size:11px;color:var(--muted)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;font-size:12px;font-weight:700;cursor:pointer;transition:all .2s}.tab.on{background:var(--dark);color:#fff}.tabPanel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;animation:pop .45s ease}@keyframes pop{from{opacity:0;transform:translateY(14px)}}
+.tabPanel h3{font-family:Georgia,serif;margin:4px 0 8px}.tabPanel p{font-size:13px;color:var(--muted)}.tabPanel .row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.tabPanel .message p{color:var(--ink)}
+.reply{margin-top:14px;display:none}.reply.show{display:block;animation:pop .45s ease}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.legend{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.field input.bad{border-color:var(--danger)}.pulse{animation:pulse 1.2s ease 2}@keyframes pulse{50%{box-shadow:0 0 0 10px #a77f5933}}
+@media(max-width:850px){.scenes,.flow,.legend,.tabPanel .row{grid-template-columns:1fr}.counts{grid-template-columns:1fr 1fr}.js [data-r=left],.js [data-r=right]{transform:translateY(34px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js [data-r],.js li.li{opacity:1;transform:none}}
+
+/* ---- compact spacing + marble ---- */
+:root{--marble:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='m' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006 .016' stitchTiles='stitch' numOctaves='5' seed='11'/%3E%3CfeColorMatrix values='0 0 0 0 .45  0 0 0 0 .40  0 0 0 0 .35  1 0 0 0 0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='0 0 0 0 .55 0 0 0 .3 0 0 0'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='700' height='700' filter='url%28%23m%29'/%3E%3C/svg%3E");--veil:rgba(251,250,247,.86)}
+body{background:linear-gradient(rgba(250,248,244,.74),rgba(250,248,244,.74)),var(--marble),#faf8f4}
+.section{padding:42px 0}.section.alt{background:linear-gradient(var(--veil),var(--veil)),var(--marble),var(--stone2)}
+.hero{padding:44px 0 38px;background:linear-gradient(rgba(248,244,237,.78),rgba(231,222,209,.82)),var(--marble),#efe8dc}.hero h1{font-size:52px;margin:12px 0}.hero p{margin:8px 0}
+.heroGrid{gap:36px}.heroVisual{min-height:360px}.actions{margin:18px 0}
+.sectionHead{margin-bottom:18px}.section h2{font-size:34px;margin:4px 0}.sectionHead p{margin:0}
+.grid3,.two,.social,.metric,.journey{gap:16px}.card{padding:20px}.productImage{min-height:340px}.productInfo{padding:26px}.specs{margin:16px 0}
+.scenes{margin-top:16px}.scene{margin:0}.counts{margin-bottom:14px}.formBox{padding:22px}.footer{padding:30px 0}
+.heroVisual,.productImage,.visualCard{background:linear-gradient(rgba(214,196,174,.45),rgba(160,138,112,.4)),var(--marble),#e9e0d3}
+.card,.step,.post,.productInfo,.formBox,.count,.tabPanel{background:linear-gradient(rgba(255,255,255,.93),rgba(255,255,255,.93)),var(--marble),#fff}
+.slab{position:relative;height:84px;border-radius:16px;margin:0 0 6px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(100deg,rgba(255,255,255,.35),rgba(255,255,255,0) 60%),var(--marble),#f1ece4;display:flex;align-items:center;padding:0 24px;box-shadow:0 8px 22px #46392a12}
+.slab b{font-family:Georgia,serif;font-weight:500;font-size:20px}.slab span{margin-left:auto;font-size:12px;color:var(--muted)}
+.tableWrap{margin-top:0}#trackerBody tr{animation:pop .5s ease both}
+@media(max-width:850px){.section{padding:32px 0}.hero{padding:30px 0}.hero h1{font-size:38px}.heroVisual{min-height:280px}.slab span{display:none}}
+
+/* ---- tighter flow (pass 2) ---- */
+.section{padding:28px 0}.section.alt{padding:30px 0}.hero{padding:34px 0 30px}
+.sectionHead{margin-bottom:14px;align-items:flex-end}.sectionHead>div{flex:1}.sectionHead p{flex:0 1 520px;text-align:left;font-size:14px}
+.section h2{font-size:32px;line-height:1.1}.slab{height:68px}.wrap[style*="padding-top:26px"]{padding-top:18px!important}
+.productImage{min-height:300px}.product{gap:24px}.card{padding:18px}.card p,.card li{line-height:1.5}.step{padding:14px}
+.scenes{margin-top:14px;gap:14px}.footer{padding:24px 0}.section .wrap>h3{margin-top:0}
+@media(max-width:850px){.section{padding:22px 0}.section.alt{padding:24px 0}.sectionHead p{margin-top:8px}.hero{padding:24px 0}.hero h1{font-size:34px}.heroVisual{min-height:240px}}
+
+/* ---- distinct marble image per section ---- */
+.slab{background:linear-gradient(100deg,rgba(255,255,255,.28),rgba(255,255,255,.05) 60%),url(images/marble-carrara.jpg) center/cover,#f1ece4}
+.productImage{background:linear-gradient(rgba(255,250,240,.3),rgba(255,250,240,.3)),url(images/marble-calacatta.jpg) center/cover,#e9e0d3}
+.visualCard{background:linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.28)),url(images/marble-nero.jpg) center/cover,#222}
+.visualCopy b,.visualCopy small{text-shadow:0 2px 12px #000a}
+.formBox{position:relative;overflow:hidden}.formBox:before{content:"";display:block;height:46px;margin:-22px -22px 18px;background:url(images/marble-travertine.jpg) center/cover}
+</style>
+</head>
+<body><div class="progress" id="progress"></div>
+<nav class="nav"><div class="wrap navin">
+<a class="brand" href="#home"><span class="mark"></span><span><b>Handmade Bathtub</b><small>Natural Stone Studio</small></span></a>
+<div class="navlinks" id="navlinks"><a href="#buyers">Buyers</a><a href="#product">Product</a><a href="#social">Post</a><a href="#tracker">Tracker</a><a href="#measure">Measure</a></div>
+<button class="btn dark" onclick="openQuote()">Request a quote</button><button class="menu" onclick="toggleMenu()">☰</button>
+</div></nav>
+
+<header class="hero" id="home"><div class="wrap heroGrid">
+<div><div class="eyebrow">Handmade natural stone · sample EX—B01</div>
+<h1>A considered stone piece for a calm bathroom.</h1>
+<p>Explore a fictional assignment product and move from discovery to a consultation or quote. The demo is designed for architects, interior designers, hospitality buyers and homeowners.</p>
+<div class="actions"><button class="btn dark" onclick="openQuote()">Ask for a consultation</button><a class="btn soft" href="#product">View EX—B01</a></div>
+<div class="facts"><span>40 cm wide</span><span>Matte finish</span><span>Natural beige</span><span>Quote on request</span></div></div>
+<div class="heroVisual"><div class="drop"></div><div class="basin"></div><span class="chip c1">Matte · 40 cm</span><span class="chip c2">Natural beige</span></div>
+</div></header>
+
+<div class="wrap" style="padding-top:26px"><div class="slab" data-r="zoom"><b>Every slab of natural stone is different.</b><span>Veining and tone vary by piece</span></div></div>
+<section class="section" id="buyers"><div class="wrap">
+<div class="sectionHead"><div><div class="eyebrow">01 · Buyer priority</div><h2>Start with the strongest fit.</h2></div><p>The order uses the three fictional buyers in the brief. Priority is based on project fit, timing and the information still needed.</p></div>
+<div class="grid3">
+<article class="card"><span class="priority">Priority 1 · P01</span><h3>Interior designer</h3><p><b>Need:</b> 2 custom basins for a premium home in Pune; home due in 60 days.</p><ul><li><b>Why first:</b> premium fit, custom quantity and enough lead time for a quote conversation.</li><li><b>Ask next:</b> dimensions, budget, destination and finish requirements.</li><li><b>Reach similar:</b> designer networks, architecture/interior communities and project-led referrals.</li></ul></article>
+<article class="card"><span class="priority">Priority 2 · P02</span><h3>Boutique hotel buyer</h3><p><b>Need:</b> 12 bathroom units in 10 days; open to different materials.</p><ul><li><b>Why second:</b> high-volume opportunity, but the 10-day requirement needs feasibility checking.</li><li><b>Ask next:</b> exact destination, unit specification, budget and required date.</li><li><b>Reach similar:</b> hospitality procurement, hotel design teams and project contractors.</li></ul></article>
+<article class="card"><span class="priority">Priority 3 · P03</span><h3>Homeowner</h3><p><b>Need:</b> 1 basin under ₹5,000 within 3 days; may only be exploring.</p><ul><li><b>Why third:</b> sample estimate and requested timing may not fit; confirm before investing sales effort.</li><li><b>Ask next:</b> destination, dimensions, exact date and willingness to discuss a quote.</li><li><b>Reach similar:</b> design-led social content, renovation communities and referrals.</li></ul></article>
+</div></div></section>
+
+<section class="section alt"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">02 · Buyer path</div><h2>One small flow, end to end.</h2></div><p>No real customer is contacted. The steps below show the intended hand-off from interest to quote.</p></div>
+<div class="journey">
+<div class="step"><strong>Discover</strong><span>Social/design content introduces the stone piece.</span></div>
+<div class="step"><strong>Explore</strong><span>Buyer sees EX—B01 details, limitations and sample estimate.</span></div>
+<div class="step"><strong>Enquire</strong><span>Buyer submits quantity, location, budget and date.</span></div>
+<div class="step"><strong>Qualify</strong><span>Missing details and fit are checked before a quote path.</span></div>
+<div class="step"><strong>Next step</strong><span>Consultation or quote discussion; no “buy now” promise.</span></div>
+</div><div class="scenes"><figure class="scene" data-r="up"><svg viewBox="0 0 400 260" role="img" aria-label="Illustration: a calm home bathroom counter (sample scene)"><rect width="400" height="260" fill="#efe7dc"/><rect y="170" width="400" height="90" fill="#cbb9a3"/><rect x="40" y="30" width="90" height="120" rx="6" fill="#dfd3c4"/><circle cx="85" cy="85" r="30" fill="#f6f0e8"/><ellipse cx="200" cy="150" rx="80" ry="28" fill="#cdbba6"/><ellipse cx="200" cy="142" rx="52" ry="14" fill="#7d6a57"/><rect x="196" y="95" width="8" height="40" fill="#a89888"/></svg><figcaption>Illustration: a calm home bathroom counter (sample scene)</figcaption></figure><figure class="scene" data-r="up"><svg viewBox="0 0 400 260" role="img" aria-label="Illustration: a row of vanities, as in a boutique hotel (sample scene)"><rect width="400" height="260" fill="#d9ccbb"/><rect y="180" width="400" height="80" fill="#a58f78"/><g transform="translate(-20 0) scale(.55) translate(0 70)"><ellipse cx="200" cy="150" rx="80" ry="28" fill="#cdbba6"/><ellipse cx="200" cy="142" rx="52" ry="14" fill="#7d6a57"/></g><g transform="translate(90 0) scale(.55) translate(0 70)"><ellipse cx="200" cy="150" rx="80" ry="28" fill="#cdbba6"/><ellipse cx="200" cy="142" rx="52" ry="14" fill="#7d6a57"/></g><g transform="translate(200 0) scale(.55) translate(0 70)"><ellipse cx="200" cy="150" rx="80" ry="28" fill="#cdbba6"/><ellipse cx="200" cy="142" rx="52" ry="14" fill="#7d6a57"/></g><rect x="30" y="40" width="340" height="14" rx="7" fill="#f3ece3"/></svg><figcaption>Illustration: a row of vanities, as in a boutique hotel (sample scene)</figcaption></figure><figure class="scene" data-r="up"><svg viewBox="0 0 400 260" role="img" aria-label="Emperador-style marble: stone varies in tone and pattern"><image href="images/marble-emperador.jpg" width="400" height="260" preserveAspectRatio="xMidYMid slice"/></svg><figcaption>Emperador-style marble: stone varies in tone and pattern</figcaption></figure></div></div></section>
+
+<section class="section" id="product"><div class="wrap product">
+<div class="productImage"><div class="basin"></div></div>
+<div class="productInfo"><div class="eyebrow">Sample product · EX—B01</div><h2>Handmade natural-stone basin</h2>
+<p style="color:var(--muted)">A counter-mounted basin with a matte finish and natural beige character. Because stone is natural, colour can vary.</p>
+<div class="specs"><div><b>Width</b><span>40 cm</span></div><div><b>Finish</b><span>Matte</span></div><div><b>Colour</b><span>Natural beige</span></div><div><b>Price</b><span>Ask for a quote</span></div><div><b>Sample estimate</b><span>₹12,000, rough only</span></div><div><b>Making time</b><span>21 days after confirmation, exercise assumption</span></div></div>
+<div class="notice"><b>Important:</b> Delivery depends on destination. Delivery cost is not given. Warranty, certificates, stock, discounts and overseas shipping are not provided in the assignment pack, so this demo does not claim them.</div>
+<div class="actions"><button class="btn dark" onclick="openQuote()">Request consultation / quote</button></div></div>
+</div></section>
+
+<section class="section alt" id="social"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">03 · Social post + visual</div><h2>Make the audience and action obvious.</h2></div><p>Audience: architects, interior designers and design-led hospitality buyers. Action: ask for a consultation or quote.</p></div>
+<div class="social"><div class="post"><span class="tag">Sample social copy</span><h3 style="font-family:Georgia,serif;font-size:27px">Let the stone be the quiet detail.</h3><p style="color:var(--muted)">A handmade natural-stone basin with a matte finish and warm beige character, designed as a considered focal point for a calm bathroom.</p><p style="color:var(--muted)">For architects, interior designers and hospitality projects looking at natural materials. Share your quantity, dimensions, destination and required date for a consultation or quote discussion.</p><button class="btn dark" onclick="openQuote()">Ask about EX—B01</button></div>
+<div class="visualCard"><div class="basin"></div><div class="visualCopy"><b>Natural stone.<br>Made to be considered.</b><small>EX—B01 · 40 cm · matte beige</small></div></div></div></div></section>
+
+<section class="section" id="messages"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">04 · Sample outreach</div><h2>Helpful, specific, not pushy.</h2></div><p>These are sample messages only, using P01 from the brief.</p></div>
+<div class="two"><div class="card"><span class="tag">First message · P01</span><div class="message"><p>Hi, thanks for your interest in the handmade natural-stone basin for your Pune project. For two custom basins, could you share the preferred dimensions, budget range and any finish requirements? We can then understand the project and take it toward a consultation or quote discussion.</p></div></div>
+<div class="card"><span class="tag">Follow-up · P01</span><div class="message"><p>Hi, just following up on the basin enquiry. If you have the dimensions, destination and target date ready, please share them and we can review the next step for the project. No pressure if you are still comparing options.</p></div></div></div></div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap" style="margin-top:20px"><div class="eyebrow">If the buyer replies with interest</div><h3 style="font-family:Georgia,serif;font-size:26px;margin:6px 0 14px">What happens next (sample hand-off, done by hand)</h3><div class="flow">
+<div class="step" data-r="left"><strong>1 · Collect</strong><span>Capture size, finish, quantity, destination, date and budget in the tracker.</span></div>
+<div class="step" data-r="up"><strong>2 · Consult</strong><span>Offer a short consultation to confirm what the project needs.</span></div>
+<div class="step" data-r="up"><strong>3 · Check</strong><span>Check the ₹12,000 sample estimate, making time and delivery with the business. Nothing is promised before this.</span></div>
+<div class="step" data-r="right"><strong>4 · Quote</strong><span>A person prepares the written quote. Only then is it a paying-client conversation.</span></div></div></div></section>
+
+<section class="section alt" id="tracker"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">05 · Inquiry tracker</div><h2>Five messages. Four people.</h2></div><p>The duplicate website message from C001 stays in the record but does not create a second person or a second reply.</p></div>
+<div class="counts" id="counts"></div><div class="tableWrap"><table><thead><tr><th>ID</th><th>Person / source</th><th>Request</th><th>Status</th><th>Missing / check</th><th>Next step</th></tr></thead><tbody id="trackerBody">
+<tr><td>L01</td><td>C001 · Instagram</td><td>1 basin · Pune · ₹15,000 · 30 days · consultation</td><td><span class="status ok">Good fit to qualify</span></td><td>Dimensions / project details</td><td>Continue consultation path.</td></tr>
+<tr><td>L02</td><td>C001 · Website</td><td>Same request, budget and date again</td><td><span class="status warn">Duplicate</span></td><td>Link to C001; do not count twice</td><td>Keep record; do not send duplicate reply.</td></tr>
+<tr><td>L03</td><td>C002 · Website</td><td>2 basins + total quote</td><td><span class="status warn">Needs details</span></td><td>Destination, required date, budget</td><td>Ask for the three missing details.</td></tr>
+<tr><td>L04</td><td>C003 · Instagram</td><td>Delivery in 3 days · ₹5,000 · confirm now</td><td><span class="status danger">Feasibility check</span></td><td>Do not promise delivery or discount</td><td>Explain that timing needs confirmation; request destination/details.</td></tr>
+<tr><td>L05</td><td>C004 · Website</td><td>10-year warranty certificate + stock today</td><td><span class="status danger">Unverified</span></td><td>Warranty and stock not supplied</td><td>Say both need confirmation; do not invent.</td></tr>
+</tbody></table></div>
+<div class="actions"><button class="btn soft" onclick="clearDemo()">Clear demo enquiries</button><button class="btn dark" onclick="openQuote()">Add sample enquiry</button></div>
+</div></section>
+
+<section class="section" id="measure"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">06 · Measure + improve</div><h2>Measure the qualified step.</h2></div><p>Results are deliberately not invented. This is a test plan for the demo.</p></div>
+<div class="metric"><div class="card"><div class="tag">Metric</div><div class="metricBig">QIR</div><h3>Qualified Inquiry Rate</h3><p>Count enquiries that contain enough information to move to consultation/quote discussion, divided by total unique enquiries.</p></div>
+<div class="card"><div class="tag">Small test</div><h3>Compare two enquiry prompts</h3><p><b>A:</b> “Ask for a quote.” <b>B:</b> “Share quantity, destination, required date and budget for a consultation.”</p><p><b>Record:</b> number of unique enquiries, number with required details, and number moving to consultation.</p><p><b>How to record it:</b> one tracker row per person; mark each as question, good fit or paying client, and keep the three counts separate.</p><p><b>Result:</b> Not tested in this assignment demo. Do not present a fabricated conversion rate.</p></div></div>
+</div></section>
+
+<section class="section" id="cases"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">Handling the questions</div><h2>Normal case and difficult cases.</h2></div><p>Draft replies are samples and are not sent. Pick a record to see the expected result, the draft and what the page actually did when tested.</p></div>
+<div class="tabs" id="tabs"></div><div id="tabPanel"></div></div></section>
+
+<section class="section alt" id="status"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">Honest status</div><h2>What works, what is by hand, what is an example.</h2></div><p>Built within the six-hour limit using free tools only. Nothing was sent to a real person.</p></div>
+<div class="legend"><div class="card" data-r="left"><span class="tag">Really works</span><ul><li>Enquiry form, tracker rows, duplicate check and live counts (browser only)</li><li>Case tabs, reveal animations, mobile menu</li></ul></div>
+<div class="card" data-r="up"><span class="tag">Done by hand</span><ul><li>Buyer priority and reasons</li><li>Draft replies and tracker status for L01–L05</li><li>Checking price, delivery and making time</li></ul></div>
+<div class="card" data-r="right"><span class="tag">Example only</span><ul><li>All buyers, product facts, ₹12,000 estimate and 21 days</li><li>The social post and illustrations (not posted)</li><li>Measurement test (not run, no results)</li></ul></div></div></div></section>
+
+<section class="section alt" id="ai"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">AI improvement</div><h2>Prompt → check → safer answer.</h2></div><p>A short example is included in <code>ai-log.md</code>; the website mirrors the same human-check logic.</p></div>
+<div class="two"><div class="card"><span class="tag">What a good answer should do</span><ul><li>Use only supplied assignment facts.</li><li>Ask for missing project details.</li><li>Never invent stock, warranty, discounts or delivery promises.</li><li>Move toward consultation or quote discussion.</li></ul></div>
+<div class="card"><span class="tag">Human checks</span><ul><li>Sample estimate vs final quote wording.</li><li>21-day exercise assumption vs real promise.</li><li>Duplicate person handling.</li><li>Destination/date/budget gaps.</li><li>Professional and non-pushy wording.</li></ul></div></div></div></section>
+
+<section class="section"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">Research notes</div><h2>Design questions worth asking.</h2></div><p>These are general research insights used to improve the enquiry prompts; the assignment pack remains the source of truth for EX—B01's fictional commercial details.</p></div>
+<div class="grid3"><div class="card"><h3>Natural variation</h3><p>Natural stone can vary in colour and appearance, so buyers benefit from discussing samples and material expectations early.</p></div><div class="card"><h3>Fit before price</h3><p>Dimensions, destination and project timing are useful before a supplier can sensibly discuss a quote path.</p></div><div class="card"><h3>Care + finish</h3><p>Stone selection can involve finish, porosity, maintenance and installation questions; the right questions depend on the specific stone.</p></div></div>
+<div class="sources"><p><b>External research used:</b></p>
+<a href="https://www.houzz.com/magazine/9-hard-questions-to-ask-when-shopping-for-stone-stsetivw-vs~20993473" target="_blank" rel="noopener">Houzz — questions to ask when shopping for stone</a>
+<a href="https://www.houzz.com/magazine/bathroom-workbook-7-natural-stones-with-enduring-beauty-stsetivw-vs~32526112" target="_blank" rel="noopener">Houzz — natural stones in bathrooms</a>
+<a href="https://www.houzz.com/magazine/bathroom-workbook-how-to-plan-for-a-bathroom-remodel-stsetivw-vs~34989744" target="_blank" rel="noopener">Houzz — bathroom planning and budgeting</a>
+</div></div></section>
+
+<section class="section" id="enquiry"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">Interactive demo</div><h2>Start a sample enquiry.</h2></div><p>Nothing is sent anywhere. The submission is stored only in this browser so the buyer-to-tracker flow can be demonstrated.</p></div>
+<div class="formBox"><form id="quoteForm"><div class="formGrid">
+<div class="field"><label for="name">Name / buyer label *</label><input id="name" required placeholder="P01 / Sample buyer"></div>
+<div class="field"><label for="location">Project location *</label><input id="location" required placeholder="Pune"></div>
+<div class="field"><label for="qty">Quantity</label><input id="qty" type="number" min="1" value="1"></div>
+<div class="field"><label for="budget">Budget range</label><input id="budget" placeholder="e.g. ₹10,000–₹20,000"></div>
+<div class="field"><label for="date">Required date</label><input id="date" type="date"></div>
+<div class="field"><label for="next">Preferred next step</label><select id="next"><option>Consultation</option><option>Quote discussion</option></select></div>
+<div class="field full"><label for="details">Dimensions / finish / requirements</label><textarea id="details" placeholder="Add size, finish, destination notes or other project details"></textarea></div>
+</div><div class="notice" style="margin-top:14px">Demo rule: a quote is not generated automatically. Missing budget/date details are flagged for follow-up rather than invented.</div><div id="reply" class="reply card"></div><div class="formActions"><button class="btn dark" type="submit">Submit sample enquiry</button><span id="formState" style="font-size:12px;color:var(--muted)"></span></div></form></div></div></section>
+
+<footer class="footer"><div class="wrap footerGrid"><div><div class="brand"><span class="mark"></span><span><b style="color:#fff">Handmade Bathtub</b><small style="color:#aaa">Assignment demo</small></span></div></div><div><small>This demo uses fictional assignment data only. No real customers are contacted and no real commercial claims are made.</small></div><div><small>EX—B01 · 40 cm · matte natural beige · quote on request</small></div></div></footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const KEY="hb_assignment_demo_v2";
+const $=s=>document.querySelector(s);
+function openQuote(){const f=document.getElementById("enquiry");f.scrollIntoView({behavior:"smooth"});setTimeout(()=>{const n=$("#name");n.focus({preventScroll:true});$(".formBox").classList.remove("pulse");void $(".formBox").offsetWidth;$(".formBox").classList.add("pulse")},500)}
+function closeQuote(){}
+function toggleMenu(){document.getElementById("navlinks").classList.toggle("mobile")}
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2800)}
+function readRows(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){return[]}}
+function writeRows(rows){try{localStorage.setItem(KEY,JSON.stringify(rows))}catch(e){}}
+function safe(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}
+$("#quoteForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ const row={name:$("#name").value.trim(),location:$("#location").value.trim(),qty:$("#qty").value,budget:$("#budget").value.trim(),date:$("#date").value,next:$("#next").value,details:$("#details").value.trim()};
+ const rows=readRows();rows.push(row);writeRows(rows);renderRows();e.target.reset();$("#qty").value=1;$("#formState").textContent="Sample enquiry added to the tracker.";toast("Sample enquiry captured. No real message was sent.");
+});
+function clearDemo(){writeRows([]);renderRows();$("#formState").textContent="Demo enquiries cleared.";toast("Local demo enquiries cleared.")}
+document.addEventListener("click",e=>{if(e.target.closest(".navlinks a"))$("#navlinks").classList.remove("mobile")});
+
+/* ---- cases, counts, duplicate check, replies ---- */
+const CASES=[
+{id:"L01",t:"L01 · Normal",exp:"Treated as one good-fit person (C001) and moved toward a consultation.",rep:"Hi, thanks for asking about a basin for your Pune bathroom. A consultation is the right next step. Could you share the size you want, the finish and the bathroom layout? We have noted your ₹15,000 budget and 30-day timing and will check them against the making time before we discuss a quote.",act:"Row shows “Good fit to qualify” with dimensions as the missing detail."},
+{id:"L02",t:"L02 · Difficult: repeat",exp:"Message kept, but not counted as a second person and no second reply.",rep:"No reply is sent. The record is linked to C001 and the first reply stands.",act:"Row shows “Duplicate”; unique people stays at 4 for 5 messages. A repeat sent through the form is also flagged as a duplicate."},
+{id:"L03",t:"L03 · Missing details",exp:"Ask for the missing details. Do not make any up.",rep:"Hi, thanks for asking about two basins. To prepare a total quote, could you tell us the delivery destination, the date you need them and your budget range?",act:"Row lists destination, date and budget as missing."},
+{id:"L04",t:"L04 · Difficult: rush",exp:"Be helpful. No delivery promise, no order confirmation, no discount.",rep:"Hi, thanks for your message. We cannot confirm an order or a delivery date yet, because delivery depends on the destination and the making time needs checking. If you share your destination and exact date, we can tell you what is possible. We also want to be open that your ₹5,000 budget is below our rough sample estimate, so we can talk about options.",act:"Row shows “Feasibility check”; the reply contains no promise or discount."},
+{id:"L05",t:"L05 · Difficult: unknown facts",exp:"Say the warranty certificate and stock need confirming. Do not claim either.",rep:"Hi, thanks for asking. We do not have a warranty certificate or stock details to share yet, so we need to confirm both before answering. Could you tell us the quantity and destination so we can check them together?",act:"Row shows “Unverified”; the reply claims neither."}];
+const tabs=$("#tabs"),panel=$("#tabPanel");
+function showCase(i){const c=CASES[i];[...tabs.children].forEach((b,j)=>b.classList.toggle("on",i===j));
+ panel.innerHTML='<div class="tabPanel"><span class="tag">'+c.t+'</span><div class="row"><div><h3>Expected</h3><p>'+c.exp+'</p><h3>Actual (this page)</h3><p>'+c.act+'</p></div><div><h3>Draft reply (not sent)</h3><div class="message"><p>'+c.rep+'</p></div></div></div></div>'}
+CASES.forEach((c,i)=>{const b=document.createElement("button");b.className="tab";b.textContent=c.t;b.onclick=()=>showCase(i);tabs.appendChild(b)});showCase(0);
+const BASE={messages:5,people:4,fit:1};
+const keyOf=r=>[r.name,r.location,r.qty,r.budget,r.date].map(x=>String(x||"").toLowerCase()).join("|");
+function analyse(rows){const seen=new Set(),out=[];rows.forEach(r=>{const k=keyOf(r),dup=seen.has(k);seen.add(k);out.push({r,dup,ready:!!(r.budget&&r.date)&&!dup})});return out}
+function renderCounts(){const a=analyse(readRows());const people=BASE.people+a.filter(x=>!x.dup).length,fit=BASE.fit+a.filter(x=>x.ready).length;
+ $("#counts").innerHTML=[[BASE.messages+a.length,"Messages received"],[people,"Unique people"],[fit,"Good-fit so far"],[0,"Paying clients (none yet)"]].map(x=>"<div class=count><b>"+x[0]+"</b><span>"+x[1]+"</span></div>").join("")}
+function draft(r,dup){if(dup)return"Duplicate of an earlier message. No second reply is sent.";const miss=[];if(!r.budget)miss.push("budget");if(!r.date)miss.push("required date");if(!r.details)miss.push("dimensions or finish");
+ return"Hi "+safe(r.name)+", thanks for your enquiry about EX-B01 for "+safe(r.location)+". "+(miss.length?"To go further, could you share your "+miss.join(", ")+"? ":"We will check your budget, date and delivery details before we discuss a quote. ")+"We can then arrange a "+(r.next==="Quote discussion"?"quote discussion":"consultation")+". We cannot confirm stock, warranty or delivery yet."}
+function renderRows(){const body=$("#trackerBody");body.querySelectorAll(".dynamic").forEach(x=>x.remove());
+ analyse(readRows()).forEach((o,i)=>{const r=o.r,tr=document.createElement("tr");tr.className="dynamic";const st=o.dup?["warn","Duplicate"]:o.ready?["ok","Ready for review"]:["warn","Needs details"];
+ tr.innerHTML="<td>D"+String(i+1).padStart(2,"0")+"</td><td>"+safe(r.name)+" · Demo form</td><td>"+safe(r.qty||1)+" basin(s) · "+safe(r.location)+" · "+safe(r.budget||"Budget not given")+" · "+safe(r.date||"Date not given")+"</td><td><span class='status "+st[0]+"'>"+st[1]+"</span></td><td>"+(o.dup?"Same as an earlier row; not counted twice":o.ready?"Check dimensions / destination":"Missing: "+(!r.budget?"budget ":"")+(!r.date?"date":""))+"</td><td>"+(o.dup?"Keep record; no second reply.":o.ready?"Move toward consultation / quote discussion.":"Ask for missing details first.")+"</td>";body.appendChild(tr)});renderCounts()}
+$("#quoteForm").addEventListener("submit",()=>{const a=analyse(readRows()),l=a[a.length-1];if(l){const b=$("#reply");b.innerHTML="<span class=tag>Draft reply (not sent)</span><div class=message><p>"+draft(l.r,l.dup)+"</p></div>";b.classList.add("show")}});
+const _clear=clearDemo;clearDemo=function(){_clear();$("#reply").classList.remove("show")};
+/* ---- motion ---- */
+(function(){const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+ const dirs=["left","right","up"];let n=0;
+ document.querySelectorAll(".sectionHead p,.hero p,.eyebrow,.notice,.metric .card p,.post p,.message,.sources,.facts").forEach((e,i)=>e.setAttribute("data-r",i%2?"right":"left"));
+ document.querySelectorAll(".card,.step,.post,.visualCard,.productImage,.productInfo,.formBox,.count").forEach(e=>{if(!e.hasAttribute("data-r")){e.setAttribute("data-r",["up","left","right","zoom"][n++%4]);e.style.transitionDelay=(n%3)*90+"ms"}});
+ document.querySelectorAll("ul").forEach(u=>u.querySelectorAll("li").forEach((li,i)=>{li.classList.add("li");li.style.transitionDelay=i*160+"ms"}));
+ document.querySelectorAll("#trackerBody tr").forEach((tr,i)=>{tr.style.animationDelay=i*120+"ms"});
+ const heads=[...document.querySelectorAll("h1,.section h2,.productInfo h2")];
+ heads.forEach(h=>{h.dataset.t=h.textContent;h.setAttribute("aria-label",h.textContent);if(!reduce)h.textContent=""});
+ function type(h){const t=h.dataset.t;let i=0;h.classList.add("caret");const id=setInterval(()=>{h.textContent=t.slice(0,++i);if(i>=t.length){clearInterval(id);setTimeout(()=>h.classList.remove("caret"),900)}},reduce?0:28)}
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;el.classList.add("in");if(el.dataset.t&&!el.dataset.done){el.dataset.done=1;type(el)}io.unobserve(el)}),{threshold:0,rootMargin:"0px 0px -6% 0px"});
+ document.querySelectorAll("[data-r],li.li").forEach(e=>io.observe(e));heads.forEach(h=>io.observe(h));
+ setTimeout(()=>document.querySelectorAll("[data-r]:not(.in),li.li:not(.in)").forEach(e=>{if(e.getBoundingClientRect().top<innerHeight)e.classList.add("in")}),2500);
+ const bar=$("#progress");addEventListener("scroll",()=>{bar.style.width=scrollY/(document.documentElement.scrollHeight-innerHeight)*100+"%"},{passive:true});
+ const hv=$(".heroVisual");if(hv&&!reduce)hv.addEventListener("mousemove",e=>{const r=hv.getBoundingClientRect();hv.style.transform="perspective(900px) rotateY("+((e.clientX-r.left)/r.width-.5)*8+"deg) rotateX("+(.5-(e.clientY-r.top)/r.height)*8+"deg)"}),hv.addEventListener("mouseleave",()=>hv.style.transform="");
+})();
+
+renderRows();
+</script>
+</body>
+</html>

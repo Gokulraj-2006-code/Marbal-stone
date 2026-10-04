@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8c8b5"/><stop offset=".5" stop-color="#eee7de"/><stop offset="1" stop-color="#9b8770"/></linearGradient><radialGradient id="stone"><stop stop-color="#ded0bf"/><stop offset="1" stop-color="#9e8a73"/></radialGradient></defs>
+<rect width="1200" height="900" fill="url(#bg)"/><text x="70" y="85" font-family="Arial" font-size="22" letter-spacing="7" fill="#fff">HANDMADE BATHTUB · EX—B01</text>
+<ellipse cx="600" cy="475" rx="360" ry="190" fill="url(#stone)" transform="rotate(-5 600 475)"/><ellipse cx="600" cy="445" rx="210" ry="100" fill="#766653" transform="rotate(-5 600 445)"/>
+<text x="70" y="745" font-family="Georgia" font-size="55" fill="#fff">Natural stone.<tspan x="70" dy="65">Made to be considered.</tspan></text>
+<text x="70" y="850" font-family="Arial" font-size="20" fill="#fff">40 cm · matte natural beige · consultation / quote</text>
+</svg>
